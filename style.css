@@ -1,0 +1,48 @@
+
+*{
+color: white;
+/* background-color: rgba(84, 84, 84, 0.5); */
+background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+h1{
+    color: black;
+    background-color: cadetblue;
+}
+/* attribute selector */
+a[target="_blank"]{
+    color: black;
+    background-color: bisque;
+}
+
+/* 
+multiple element selection
+p,a,h1{
+    color: red;
+    background-color: black;
+} */
+/* child selector */
+form > div,p,select,fieldset{
+    background-color: aliceblue;
+}
+li{
+    list-style-type: disc;
+    color: tomato;
+}
+/* decendent combinator which can applied to grand child or any in deph child */
+li li{
+    list-style: decimal;
+    color:springgreen;
+}
+/* adjacent sibling selector sibling means immediate element not child 
+h1 sibling is form and form child is div */
+h1+form>div{
+    color: blue;
+}
+/* ~ is also sibling selector ut it will select all the forms element which are direct element after h1 */
+h1~form>div,fieldset{
+    background-color: black;
+}
+

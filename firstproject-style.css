@@ -1,0 +1,109 @@
+body{
+    background-image: url(https://i.ibb.co/HtfMdJS/bg.webp);
+    margin: 0;
+    padding: 0;
+    height: 110vh;
+    color: white;
+
+}
+header{
+    
+    padding: 20px;
+    color: white;
+    position: sticky;
+    top: 0;
+
+}
+.logobox{
+    
+    border: 2px solid red;
+    display: inline-block;
+    width: auto;
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: all 0.5;
+}
+.logobox:hover{
+    color: salmon;
+    border: 2px solid white;
+}
+.navbox{
+    
+    
+    display: inline-block;
+    width: 600px;
+    position: absolute;
+    right: 20px;
+
+}
+.navbox>a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.navbox>a:hover{
+    color: salmon;
+}
+#home{
+    color: tomato;
+}
+.heading{
+color: salmon;
+font-size: 80px;
+
+position: relative;
+width:  500px;
+top: 60px;
+left: 70px;
+}
+.heading+h3{
+    font-size: 40px;
+
+position: relative;
+width: 500px;
+left: 70px;
+}
+.heading+h3+p{
+   
+    position: relative;
+    width: 500px;
+    top: 0px;
+    left: 70px;
+    font-style: italic;
+}
+.btn{
+    width: 120px;
+    padding: 8px;
+    border: none;
+    background-color: salmon;
+    color: white;
+    position: relative;
+    left:70px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid salmon;
+    transition: all 0.5s;
+
+}
+.btn:hover{
+    background-color: transparent;
+    color: white;
+}
+footer{
+    position: fixed;
+    bottom :0;
+}
+footer>a{
+    text-decoration: none;
+    color: salmon;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+footer>a:hover{
+    color: white;
+    border: 2px solid salmon;
+}

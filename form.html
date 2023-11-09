@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+    <div>
+        <form action="" method="post">
+            <h1 style="text-align: center;">Contact Us</h1>
+            <div>Name: <input type="text" name="name" ></div>
+            <div>Email: <input type="email" name="email" ></div>
+            <div>Password: <input type="password" name="password" ></div>
+            <div>Message: <textarea  name="usermsg" ></textarea></div>
+                <div>
+                    Gender:<select name="usergender" id="gender">
+                        <option value="">Choose One</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Select your skills</legend>
+                        Frontend: <input type="checkbox" name="skills" id="Frontend">
+                        Backend: <input type="checkbox" name="skills" id="Backend">
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset>
+                        <p>Payment Mode</p>
+                        Cash <input type="radio" name="payment" id="Cash">
+                        Bank <input type="radio" name="payment" id="Bank">
+                    </fieldset>
+                </div>
+                <input type="submit" value="Submit">
+        </form>
+    </div> 
+</body>
+</html>

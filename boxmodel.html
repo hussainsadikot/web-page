@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    
+    <title>Document</title>
+
+    <style>
+        body{
+            height: 1000px;
+            width: 100%;
+            border: 2px solid black;
+        }
+        .container{
+            height: inherit;
+            width: inherit;
+        }
+        .container >div{
+           display: block;
+            height: 100px;
+            width: 100px;
+            overflow: hidden;
+
+           padding: 4px;
+            border: 2px solid orange;
+        }
+        #first{
+           position:sticky;
+           width: inherit;
+           top:0
+          
+          
+        }
+        #second{
+            border-radius: 100%;
+            height: 50px;
+            width: 50px;
+           position: fixed;
+           right:80px;
+           top:100px;
+           flex: wrap;
+           text-align: center;
+           align-items: center;
+           justify-content: center;
+           padding: 2px;
+            background-color: tomato;
+           
+        }
+        #third{
+            
+            background-color: greenyellow;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div id="first">1. Navbar</div>
+        <div id="second">Chat
+
+        </div>
+        <div id="third">3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aliquam magni vitae quasi accusamus veritatis exercitationem provident nesciunt, architecto error voluptates veniam non at, aspernatur nostrum asperiores corporis nihil libero amet voluptatum facilis. Esse ipsum recusandae pariatur, consectetur assumenda quidem. Rem, autem. Magni repudiandae maiores ipsam voluptate beatae. Iste, velit!</div>
+    </div>
+</body>
+</html>

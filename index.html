@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            background-color: aqua;
+        }
+        p{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- <a href="#">Hello</a>
+    <abbr title="It's my instgram"><a href="https://www.instagram.com/hussain_here/" target="_blank"><p>My insta page</p></a></abbr> -->
+   <a href="https://youtu.be/L0l8acdWh2A?si=rq5E2sIA0kgLk89m" target="_blank">Part 2</a>
+
+    <div>
+        <h1 style="color: crimson;">Contact Us</h1>
+        <form action="" method="post">
+            <div>Name: <input type="text" name="name" ></div>
+            <div>Email: <input type="email" name="email" ></div>
+            <div>Password: <input type="password" name="password" ></div>
+            <div>Message: <textarea  name="usermsg" ></textarea></div>
+                Gender:<select name="usergender" id="gender">
+                    <option value="">Choose One</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+                <div>
+                    <fieldset>
+                        <legend>Select your skills</legend>
+                        Frontend: <input type="checkbox" name="skills" id="Frontend">
+                        Backend: <input type="checkbox" name="skills" id="Backend">
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset>
+                        <p>Payment Mode</p>
+                        Cash <input type="radio" name="payment" id="Cash">
+                        Bank <input type="radio" name="payment" id="Bank">
+                    </fieldset>
+                </div>
+                <input type="submit" value="Submit">
+        </form>
+    </div>    
+
+     <table >
+        <thead>
+            <tr>
+                <th>Food</th>
+                <th>Protien</th>
+                <th>Fat</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Egg</td>
+                <td>6gm</td>
+                <td>3.5gm</td>
+            </tr>
+            <tr>
+                <td>Egg White</td>
+                <td>3gm</td>
+                <td>0.5gm</td>
+            </tr>
+        </tbody>
+     </table>   
+    <ol type="A">
+        <abbr title="Goto Apple.com">
+            <a href="https://www.apple.com/in/" target="_blank">
+                <li>Apple</li>
+            </a>
+        </abbr>
+        <li>
+            <ul>
+                <li>Banana</li>
+                <li><img height="100px" src="https://images.unsplash.com/photo-1587132137056-bfbf0166836e?auto=format&fit=crop&q=80&w=1780&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></li>
+            </ul>
+        </li>
+        <li>Mango</li>
+        <li>Peach</li>
+        <li>Cherry</li>
+    </ol>
+    <script src="script.js"></script>
+</body>
+</html>
